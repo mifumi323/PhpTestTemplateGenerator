@@ -24,7 +24,7 @@
         <TextBox x:Name="txtOutputFileName" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2"/>
         <Label Content="内容" Grid.Row="2"/>
         <TextBox x:Name="txtContent" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2" Drop="txtContent_Drop" PreviewDragOver="txtContent_PreviewDragOver" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"/>
-        <Label x:Name="lblMessage" Content="" Grid.Column="1" Grid.Row="3"/>
+        <Label x:Name="lblMessage" Content="ドラッグ＆ドロップで作成" Grid.Column="1" Grid.Row="3"/>
         <Button x:Name="btnSave" Grid.Column="2" Grid.Row="3" Click="btnSave_Click">保存</Button>
     </Grid>
 </Window>
